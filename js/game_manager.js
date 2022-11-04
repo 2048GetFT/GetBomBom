@@ -22,9 +22,6 @@ GameManager.prototype.restart = function () {
 // Keep playing after winning
 GameManager.prototype.keepPlaying = function () {
   this.keepPlaying = true;
-  if (this.keepPlaying == true){
-    window.location.href="https://api.whatsapp.com/send?phone=5535988347223&text=Eu%20aceito!";
-  }
   this.actuator.continue();
 };
 
