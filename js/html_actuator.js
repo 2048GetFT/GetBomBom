@@ -41,6 +41,10 @@ HTMLActuator.prototype.continue = function () {
   this.clearMessage();
 };
 
+HTMLActuator.prototype.teste = function () {
+  this.clearMessage();
+};
+
 HTMLActuator.prototype.clearContainer = function (container) {
   while (container.firstChild) {
     container.removeChild(container.firstChild);

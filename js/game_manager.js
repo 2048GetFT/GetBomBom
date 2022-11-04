@@ -16,6 +16,7 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
 // Restart the game
 GameManager.prototype.restart = function () {
   this.setup();
+  this.actuator.teste();
 };
 
 // Keep playing after winning
